@@ -535,6 +535,5 @@ Response
 }
 ```
 
-
 </div>
 </details>
