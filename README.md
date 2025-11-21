@@ -40,9 +40,9 @@ Name: Hojun Lee
 ### 3.1 Intern
 |Company|Project|Skills|Description|Details|
 |------|---|---|---|---|
-|SisoApp|Backend|Matching Date app for seniors|[Notion](https://likelion.notion.site/24644860a4f480139f6edb73810b48a7, "google link")
+|SisoApp|Backend|Date appication for seniors|[Notion](https://likelion.notion.site/24644860a4f480139f6edb73810b48a7, "google link")
 
 ### 3.2 Education
 |Project|Skills|Description|Details|
 |------|---|---|---|
-|Fivelogs|Backend|Blog Post|[Github](https://github.com/five-guyes/fivelogs, "google link")
+|Fivelogs|Backend|Blog for beginners of coding|[Github](https://github.com/five-guyes/fivelogs, "google link")
