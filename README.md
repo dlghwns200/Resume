@@ -45,4 +45,4 @@ Name: Hojun Lee
 ### 3.2 Education
 |Project|Skills|Description|Details|
 |------|---|---|---|
-|FiveGuys|Backend|Blog Post|[Github](
+|Fivelogs|Backend|Blog Post|[Github](https://github.com/five-guyes/fivelogs, "google link")
