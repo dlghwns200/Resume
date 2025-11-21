@@ -21,6 +21,7 @@ Name: Hojun Lee
 ### 1.3 Skills
 
 * Java
+  * Backend 
   * Spring Boot
 * MySql
 
@@ -29,3 +30,19 @@ Name: Hojun Lee
 |Place|Duration|Form|
 |------|---|---|
 |Likelion|2025-08-06 ~ 2025-09-05|Intern|
+
+
+## 2. Introduction
+
+
+## 3. My Projects
+
+### 3.1 Intern
+|Company|Project|Skills|Description|Details|
+|------|---|---|---|---|
+|SisoApp|Backend|Matching Date app for seniors|[Notion](https://likelion.notion.site/24644860a4f480139f6edb73810b48a7, "google link")
+
+### 3.2 Education
+|Project|Skills|Description|Details|
+|------|---|---|---|
+|FiveGuys|Backend|Blog Post|[Github](
