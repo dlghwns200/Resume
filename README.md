@@ -75,9 +75,9 @@ Motivated and globally experienced IT professional with academic background in t
 ### 3.1 Intern
 |Company|Project|Skills|Description|Details|
 |------|---|---|---|---|
-|Likelion|SisoApp|[Backend](https://github.com/SisoApp/siso-backend, "google link")|Date appication for seniors|[Notion](https://likelion.notion.site/24644860a4f480139f6edb73810b48a7, "google link")
+|Likelion|SisoApp|[Backend](https://github.com/SisoApp/siso-backend)|Date appication for seniors|[Notion](https://likelion.notion.site/24644860a4f480139f6edb73810b48a7)
 
 ### 3.2 Education
 |Project|Skills|Description|Details|
 |------|---|---|---|
-|Fivelogs|Backend|Blog for beginners of coding|[Github](https://github.com/five-guyes/fivelogs, "google link")
+|Fivelogs|Backend|Blog for beginners of coding|[Github](https://github.com/five-guyes/fivelogs)
