@@ -221,7 +221,7 @@ Response
 </details>
 
 
-### Blogs
+### Board
 
 <details>
 <summary>1. Edit Board</summary>
@@ -310,8 +310,37 @@ Response
 
 
 ### Profile
-<details><
+<details>
 <summary>SNS link</summary>
 <div markdown="1">
+
+**POST** "/api/users/me/mypage/sns""
+
+Request
+```json
+{
+  "githubLink": "https://github.com/example",
+  "instagramLink": "https://instagram.com/example",
+  "twitterLink": "https://twitter.com/example"
+}
+```
+Response
+```json
+{
+  "id": 1,
+  "nickname": "nickname",
+  "introduce": "I love coding and sharing knowledge!",
+  "boardCount": 15,
+  "viewCount": 1200,
+  "followingCount": 50,
+  "followerCount": 200,
+  "profileImageUrl": "https://example.com/profile.jpg",
+  "githubLink": "https://github.com/nickname",
+  "instagramLink": "https://instagram.com/nickname",
+  "twitterLink": "https://twitter.com/nickname"
+}
+```
+
+
 </div>
 </details>
