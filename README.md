@@ -22,7 +22,7 @@ Name: Hojun Lee
 #### Likelion BootCamp
 * Backend
 * Frontend
-* MySQL
+* CI/CD
  
 ### 1.3 Skills
 
