@@ -18,6 +18,11 @@ Name: Hojun Lee
   * Economics
   * English
   * Japanese
+
+#### Likelion BootCamp
+* Backend
+* Frontend
+* MySQL
  
 ### 1.3 Skills
 
@@ -36,7 +41,8 @@ Name: Hojun Lee
 
 
 ## 2. Introduction
-
+### 2.1 Personal Strength
+Motivated and globally experienced IT professional with academic background in the United States and the United Kingdom, complemented by backend development project experience and an IT internship in Korea
 
 ## 3. My Projects
 
