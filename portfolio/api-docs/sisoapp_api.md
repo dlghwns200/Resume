@@ -305,3 +305,160 @@ VOICE_SAMPLE_FILE_TOO_LONG(HttpStatus.BAD_REQUEST, "Voice duration is too large"
 ```
 </div>
 </details>
+
+### Notification
+<details>
+<summary>1. Create Notification</summary> 
+<div markdown="1">
+
+**POST** '/api/notifications'
+
+Request:
+
+```json
+{
+  "receiverId": 1,
+  "senderId": 2,
+  "senderNickname": "김철수",
+  "title": "새로운 매칭!",
+  "message": "김철수님과 매칭되었습니다.",
+  "url": "/matching/2",
+  "type": "MATCHING"
+}
+```
+
+Response (201):
+
+```json
+{
+  "success": true,
+  "data": [
+    {
+      "id": 1,
+      "receiverId": 1,
+      "senderId": 2,
+      "senderNickname": "김철수",
+      "title": "새로운 매칭!",
+      "message": "김철수님과 매칭되었습니다.",
+      "url": "/matching/2",
+      "type": "MATCHING",
+      "isRead": false,
+      "createdAt": "2024-01-15T10:30:00"
+    }
+  ],
+  "errorMessage": null
+}
+```
+</div>
+</details>
+
+<details>
+<summary> 2. Read all notifications </summary>
+<div markdown="1">
+
+**GET** "/api/notifications"
+
+Response:
+```json
+{
+  "success": true,
+  "data": [
+    {
+      "id": 1,
+      "receiverId": 1,
+      "senderId": 2,
+      "senderNickname": "김철수",
+      "title": "새로운 매칭!",
+      "message": "김철수님과 매칭되었습니다.",
+      "url": "/matching/2",
+      "type": "MATCHING",
+      "isRead": false,
+      "createdAt": "2024-01-15T10:30:00"
+    },
+    {
+      "id": 2,
+      "receiverId": 1,
+      "senderId": 3,
+      "senderNickname": "박영희",
+      "title": "새로운 댓글",
+      "message": "박영희님이 댓글을 남겼습니다.",
+      "url": "/post/15",
+      "type": "COMMENT",
+      "isRead": true,
+      "createdAt": "2024-01-14T12:00:00"
+    }
+  ],
+  "errorMessage": null
+}
+```
+
+</div>
+</details>
+
+<details>
+<summary>3. Read unread notification </summary>
+<div markdown="1">
+
+**GET** "/api/notifications/unread"
+
+Response
+
+```json
+{
+  "success": true,
+  "data": [
+    {
+      "id": 1,
+      "receiverId": 1,
+      "senderId": 2,
+      "senderNickname": "김철수",
+      "title": "새로운 매칭!",
+      "message": "김철수님과 매칭되었습니다.",
+      "url": "/matching/2",
+      "type": "MATCHING",
+      "isRead": false,
+      "createdAt": "2024-01-15T10:30:00"
+    },
+    {
+      "id": 2,
+      "receiverId": 1,
+      "senderId": 3,
+      "senderNickname": "박영희",
+      "title": "새로운 댓글",
+      "message": "박영희님이 댓글을 남겼습니다.",
+      "url": "/post/15",
+      "type": "COMMENT",
+      "isRead": true,
+      "createdAt": "2024-01-14T12:00:00"
+    }
+  ],
+  "errorMessage": null
+}
+```
+
+
+</div>
+</details>
+
+<details>
+<summary>4. Count unread notification </summary>
+<div markdown="1">
+
+**GET** "/api/voice-samples/{voiceId}"
+
+Response
+
+```json
+  {
+  "success": true,
+  "data": [
+    {
+      "unreadCount": 5
+    }
+  ],
+  "errorMessage": null
+}
+```
+
+</div>
+</details>
