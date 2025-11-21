@@ -26,12 +26,36 @@ Name: Hojun Lee
  
 ### 1.3 Skills
 
-* Java
-  * Frontend, Backend 
+* Backend
+  * Java
   * Spring Boot
-* MySQL
-* React, Node.js
-* CI/CD
+  * Spring Data Jpa
+  * Spring Web
+
+* Database
+  * MySQL/ MariaDB
+  * Redis
+
+* DevOps
+  * AWS
+  * Docker
+  * Nginx
+  * GitHub Actions
+
+* Test
+  * Swagger
+
+* Etc.
+  * REST API
+  * OAuth 2.0 / JWT
+  * WebSocket
+  * Firebase
+
+* Frontend
+  * React
+  * Node.js
+
+
 
 ### 1.4 Experiences
 
