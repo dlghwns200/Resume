@@ -8,10 +8,10 @@ Name: Hojun Lee
 
 ### 1.2 Education
 
-Cardiff University
+#### Cardiff University
 * Major: Computer Science
 
-Pennsylvania State of University
+#### Pennsylvania State of University
 
 * Major: Multidisciplinary Studies
   * Economics
