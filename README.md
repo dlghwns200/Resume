@@ -5,6 +5,7 @@
 
 Name: Hojun Lee
 * Birth Date: 1996-07-24
+* Email: dlghwns200@gmail.com
 
 ### 1.2 Education
 
@@ -21,9 +22,11 @@ Name: Hojun Lee
 ### 1.3 Skills
 
 * Java
-  * Backend 
+  * Frontend, Backend 
   * Spring Boot
-* MySql
+* MySQL
+* React, Node.js
+* CI/CD
 
 ### 1.4 Experiences
 
@@ -40,7 +43,7 @@ Name: Hojun Lee
 ### 3.1 Intern
 |Company|Project|Skills|Description|Details|
 |------|---|---|---|---|
-|SisoApp|Backend|Date appication for seniors|[Notion](https://likelion.notion.site/24644860a4f480139f6edb73810b48a7, "google link")
+|Likelion|SisoApp|[Backend](https://github.com/SisoApp/siso-backend, "google link")|Date appication for seniors|[Notion](https://likelion.notion.site/24644860a4f480139f6edb73810b48a7, "google link")
 
 ### 3.2 Education
 |Project|Skills|Description|Details|
