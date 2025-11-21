@@ -462,3 +462,79 @@ Response
 
 </div>
 </details>
+
+
+### Firebase
+<details>
+<summary>1. Send push message</summary> 
+<div markdown="1">
+
+**POST** '/api/fcm/sendMessage'
+
+Request:
+
+```json
+{
+  "userId": 1,
+  "title": "새로운 알림",
+  "body": "김철수님과 매칭되었습니다."
+}
+```
+
+Response (201):
+
+```json
+{
+  "Message sent successfully to X devices"
+}
+```
+</div>
+</details>
+
+<details>
+<summary> 2. Create Token </summary>
+<div markdown="1">
+
+**POST** "/api/fcm/token"
+
+Request:
+```json
+{
+  "userId": 1,
+  "token": "fcm_device_token_here"
+}
+```
+
+Response:
+```json
+{"Token registered successfully"}
+
+```
+
+</div>
+</details>
+
+<details>
+<summary>3. Read unread notification </summary>
+<div markdown="1">
+
+**GET** "/api/notifications/unread"
+
+Request
+```json
+{
+  "userId": 1,
+  "token": "fcm_device_token_here"
+}
+```
+Response
+
+```json
+{
+  "Token registered successfully"
+}
+```
+
+
+</div>
+</details>
