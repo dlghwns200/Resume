@@ -41,7 +41,7 @@ Response (201):
   "createdDate": "2025-04-14T10:30:00",
   "updatedDate": "2025-04-14T10:45:00",
   "replies": [],
-  "likedByMe": false
+  "likedByMe": null
 }
 ```
 </div>
@@ -51,7 +51,7 @@ Response (201):
 <summary> 2. Read comment </summary>
 <div markdown="1">
 
-**PUT** "/api/comments/boards/{boardId}"
+**GET** "/api/comments/boards/{boardId}"
 
 Request
 ```json
@@ -73,7 +73,7 @@ Response:
 "createdDate": "2025-04-14T10:30:00",
 "updatedDate": "2025-04-14T10:45:00",
 "replies": [],
-"likedByMe": false
+"likedByMe": null
 }
 ```
 
@@ -84,7 +84,7 @@ Response:
 <summary>3. Edit comment</summary>
 <div markdown="1">
 
-**PUT** "/api/images/{imageId}"
+**PUT** "/api/comments/boards/{booardId}/{imageId}"
 
 ```json
 {
@@ -106,7 +106,7 @@ Response:
   "createdDate": "2025-04-14T10:30:00",
   "updatedDate": "2025-04-14T10:45:00",
   "replies": [],
-  "likedByMe": false
+  "likedByMe": null
 }
 ```
 
@@ -166,8 +166,152 @@ Response
   "createdDate": "2025-04-14T10:30:00",
   "updatedDate": "2025-04-14T10:45:00",
   "replies": [],
-  "likedByMe": false
+  "likedByMe": true
 }
 ```
+</div>
+</details>
+
+<details>
+<summary>5. Read replies comment</summary>
+<div markdown="1">
+**GET** "/api/comments/boards/{parentId}/replies"
+
+Request
+
+```json
+{
+  "id": 1,
+  "boardId": 1
+}
+```
+
+Response
+
+```json
+{
+
+  "id": 1,
+  "comment": "content",
+  "nickname": "Nickname",
+  "likeCount": 0,
+  "dislikeCount": 0,
+  "deleted": false,
+  "createdDate": "2025-04-14T10:30:00",
+  "updatedDate": "2025-04-14T10:45:00",
+  "replies": [
+    {
+      "id": 2,
+      "comment": "reply content",
+      "nickname": "ReplyUser",
+      "likeCount": 0,
+      "dislikeCount": 0,
+      "deleted": false,
+      "createdDate": "2025-04-14T10:40:00",
+      "updatedDate": null,
+      "replies": [],
+      "likedByMe": null
+    }
+  ],
+  "likedByMe": true
+
+}
+```
+</div>
+</details>
+
+
+### Blogs
+
+<details>
+<summary>1. Edit Board</summary>
+<div markdown="1">
+
+**PUT** "/api/images/{imageId}"
+
+```json
+{
+  "boardId": 1
+}
+```
+
+Response:
+```json
+{
+  "boardId": 1,
+  "blogTitle": "Edit title",
+  "nickname": "Nickname",
+  "createdDate": "2025-04-14T10:30:00",
+  "updatedDate": "2025-04-14T11:00:00",
+  "status": "PUBLIC",
+  "hashtags": ["Java", "Spring"]
+}
+```
+
+
+</div>
+</details>
+
+
+<details>
+<summary>2. Delete board</summary>
+<div markdown="1">
+
+**DELETE** "/api/comments/boards/{boardId}"
+
+Request
+
+```json
+{
+  "boardId": "1"
+}
+```
+
+Response
+
+```json
+  204 No Content
+```
+
+</div>
+</details>
+
+<details>
+<summary>3. Search boards</summary>
+<div markdown="1">
+
+**GET** "/api/boards/search"
+
+
+Response
+
+```json
+[
+  {
+    "id": 12,
+    "title": "Spring Boot 게시판 만들기",
+    "content": "내용 일부...",
+    "views": 230,
+    "hashtags": ["Spring", "JPA"],
+    "created": "2025-04-14 10:30:00",
+    "updated": "2025-04-14 11:00:00",
+    "nickname": "Nickname",
+    "githubLink": "https://github.com/example",
+    "instagramLink": null,
+    "twitterLink": null,
+    "boardStatus": "PUBLIC"
+  }
+]
+```
+
+
+</div>
+</details>
+
+
+### Profile
+<details><
+<summary>SNS link</summary>
+<div markdown="1">
 </div>
 </details>
