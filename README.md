@@ -26,34 +26,36 @@ Name: Hojun Lee
  
 ### 1.3 Skills
 
-* Backend
-  * Java
-  * Spring Boot
-  * Spring Data Jpa
-  * Spring Web
+### Backend
+![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+![Spring Data JPA](https://img.shields.io/badge/Spring%20Data%20JPA-59666C?style=for-the-badge)
+![Spring Web](https://img.shields.io/badge/Spring%20Web-6DB33F?style=for-the-badge)
 
-* Database
-  * MySQL/ MariaDB
-  * Redis
+### Database
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 
-* DevOps
-  * AWS
-  * Docker
-  * Nginx
-  * GitHub Actions
+### DevOps / Infra
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2671E5?style=for-the-badge&logo=githubactions&logoColor=white)
 
-* Test
-  * Swagger
+### Test / API Docs
+![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)
 
-* Etc.
-  * REST API
-  * OAuth 2.0 / JWT
-  * WebSocket
-  * Firebase
+### Etc.
+![REST API](https://img.shields.io/badge/REST%20API-000000?style=for-the-badge)
+![OAuth2.0](https://img.shields.io/badge/OAuth%202.0-3EAD2F?style=for-the-badge)
+![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
+![WebSocket](https://img.shields.io/badge/WebSocket-010101?style=for-the-badge)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
 
-* Frontend
-  * React
-  * Node.js
+### Frontend
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
 
 
 
